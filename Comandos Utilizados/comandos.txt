@@ -1,0 +1,32 @@
+  175  mkdir "Deportes de equipo" "Deportes acuaticos" "Deportes extremos" "Deportes de mesa" "Deportes mentales"
+  176  cd Deportes\ de\ equipo/
+  177  touch Basket
+  178  cd..
+  179  cd ..
+  180  cd Deportes\ mentales/
+  181  touch Ajedrez.txt
+  182  cd ..
+  183  cd Deportes\ de\ mesa/
+  184  touch Ping pong
+  185  cd ..
+  186  ls -R
+  187  ls -a
+  188  rm -r "Deportes extremos"
+  189  mkdir Deportes extremos
+  190  mkdir "Deportes extremos"
+  191  rm  "Deportes extremos"
+  192  rm -r "Deportes extremos"
+  193  pdw
+  194  pwd
+  195  git init
+  196  git status
+  197  git add .
+  198  git commit -m "first-commit"
+  199  git status
+  200  git remote add origin https://github.com/crDT99/DH-introduccion-examenprueba.git
+  201  git branch -M main
+  202  git push -u origin main
+  203  mkdir Comandos Utilizados
+  204  mkdir "Comandos Utilizados"
+  205  cd Comandos\ Utilizados/
+  206  history > comandos.txt
